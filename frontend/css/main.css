@@ -1,0 +1,28 @@
+/* ============================================================
+   Clinic AI — Custom Styles
+   Tailwind handles utility classes via CDN; this file holds
+   custom transitions and component-level overrides only.
+   ============================================================ */
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f8fafc;
+    min-height: 100vh;
+}
+
+/* Vanna chat web component fills its container */
+vanna-chat {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* Sample question pill hover effect */
+.sample-q {
+    transition: all 0.15s ease;
+}
+
+.sample-q:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(15, 118, 110, 0.15);
+}
