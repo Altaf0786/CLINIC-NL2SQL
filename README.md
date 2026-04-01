@@ -129,7 +129,7 @@ invoices (id, patient_id, appointment_id, invoice_date, total_amount, paid_amoun
 ### Step 1 — Clone & Install
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Altaf0786/CLINIC-NL2SQL.git
 cd clinic-nl2sql
 
 python3 -m venv .venv
